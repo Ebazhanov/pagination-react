@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
+import Posts from './components/Posts'
 import axios from 'axios';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -23,8 +23,9 @@ function App() {
     console.log(posts);
     console.log(loading);
     return (
-        <div className="App">
-            <h1>Future header</h1>
+        <div className="container mt-5">
+            <h1 className="text-primary mb-3">My blog</h1>
+            <Posts posts={posts} loading={loading}/>
         </div>
     );
 }
