@@ -36,4 +36,6 @@ $ yarn start
 
 Open your browser and go to [http://localhost:3000/](http://localhost:3000/)
 
+or here [https://pagination-basic.netlify.com/](https://pagination-basic.netlify.com/)
+
 ![Pagination Demo](Pagination.gif)
