@@ -30,7 +30,7 @@ const App = () => {
 
     return (
         <div className='container mt-5'>
-            <h1 className='text-primary mb-3'>Pagination 1,2,3</h1>
+            <h1 className='text-primary mb-3'>Pagination 1,2,3,4,5 ...</h1>
             <Posts posts={currentPosts} loading={loading}/>
             <Pagination
                 postsPerPage={postsPerPage}
